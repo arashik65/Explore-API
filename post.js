@@ -30,10 +30,11 @@ const displayPost=(posts)=>{
         //3.add to the container
         postContainer.append(postCard);
         
-    })
+    });
 }
+
 //ekhane load post ke click nah koreu by default dekhabe post ta
-// loadpost();
+loadpost();
 
 
 

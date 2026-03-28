@@ -1,3 +1,24 @@
+
+
+
+
+
+
+//ekhane async mane eta sequential sajabe 
+// const loodTodo=async()=>{
+//    const url="https://jsonplaceholder.typicode.com/todos";
+//    const res = await fetch(url);
+//    const data = await res.json();
+//     displayTodo(data);
+// };
+
+
+
+
+
+
+
+
 const loodTodo=()=>{
    const url="https://jsonplaceholder.typicode.com/todos";
    fetch(url)
@@ -24,6 +45,9 @@ const displayTodo=(todos)=>{
     <div class="todo-card">
        
        <p>${
+          
+         //conditional Rendaring
+
          todo.completed ==true 
          ? `<i class="fa-solid fa-square-check"></i>`
          : `<i class="fa-regular fa-square-check"></i>`
